@@ -1,7 +1,7 @@
-# print("hello world")
-# name = "hello Mr. Alex "
-# print(name)
-# print(f"name is {name}")
+print("hello world")
+name = "hello Mr. Alex "
+print(name)
+print(f"name is {name}")
 
 name =  input("what is your name? ")
 print(f"hello my name is {name}")
