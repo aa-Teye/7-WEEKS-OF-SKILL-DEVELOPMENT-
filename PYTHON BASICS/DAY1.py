@@ -15,11 +15,15 @@
 # else: 
 #     print("You are not elgible to vote") 
 
-count = 5
+count = int(input("Enter your starting number :"))
 while count < 10 :
-    print(count)
+    print(f"\n -- {count}---")
     count = count + 1
 
-for num in range (10) :
-    print(f"number is now  {num}")
-    
+# for num in range (10) :
+#     print(f"number is now  {num}")
+
+# for num in range(1,11) :
+#     print(f"number is now {num}")
+
+
