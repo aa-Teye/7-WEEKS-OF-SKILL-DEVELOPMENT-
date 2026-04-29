@@ -30,3 +30,9 @@ for num in range(1,11) :
 for i in range (5):
     print(f" The voters number is #0{i +2567}")
 
+booth_open = True
+while booth_open :
+    action = input("Enter 'vote' to cast your vote or 'close' to close the booth :")
+    if action == "close":
+        booth_open = False #This will break the loop and close the booth
+        print("The booth is now closed. Thank you for voting!")
