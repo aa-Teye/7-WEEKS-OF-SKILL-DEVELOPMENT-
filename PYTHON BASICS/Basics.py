@@ -36,3 +36,5 @@ while booth_open :
     if action == "close":
         booth_open = False #This will break the loop and close the booth
         print("The booth is now closed. Thank you for voting!")
+
+# TESTING FOR THE REVISION STRENGHT 
