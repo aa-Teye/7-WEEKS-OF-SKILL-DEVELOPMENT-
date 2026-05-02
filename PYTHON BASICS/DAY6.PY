@@ -12,15 +12,22 @@
 # print(greet_username())
 
 # FUNCTION WITH PARAMETERS
-def check_age(age):
-    if age >= 18:
-        return "You are eligible to vote."
-    else:
-        return "You are not eligible to vote."
+# We use paraameters when the function needs to with specific data. Parameters are defined in the function definition and can be used within the function to perform operations.
+# def check_age(age):
+#     if age >= 18:
+#         return "You are eligible to vote."
+#     else:
+#         return "You are not eligible to vote."
     
-age = int(input("Enter your age: "))
-print(check_age(age))
+# age = int(input("Enter your age: "))
+# print(check_age(age))
 
-
+# For this the function doesn't need any parameters to perform its task, so we can define it without parameters. The function simply displays a welcome message when called.  
 def display_welcome():
     print("Welcome to the Python programming course!")
+
+display_welcome()
+
+
+#BASIC MATH QUIZ GAME 
+   
