@@ -30,4 +30,8 @@ display_welcome()
 
 
 #BASIC MATH QUIZ GAME 
-   
+import random 
+def generate_question():
+    num1 = random.randint(1, 10)
+    num2 = random.randint(1, 10)
+    operator  = random.choice(['+', '-', '*'])
