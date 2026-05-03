@@ -43,4 +43,12 @@ def generate_question():
         answer = num1 * num2
     else:
         answer = num1 / num2
+    return f"{num1} {operator} {num2}", answer
 
+
+def quiz_game():
+    
+
+
+
+ 
