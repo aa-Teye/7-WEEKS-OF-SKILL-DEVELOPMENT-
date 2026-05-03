@@ -54,5 +54,6 @@ def quiz_game():
     print(f"Your final score is {score}/5.")
 
 
-
+#Don't forget to move put to comment the part of the code to run the others when you are taking this as a learnig material 
+# quiz_game()
  
