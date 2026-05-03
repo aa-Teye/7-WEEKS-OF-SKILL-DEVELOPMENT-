@@ -47,7 +47,16 @@ def generate_question():
 
 
 def quiz_game():
-    
+    score = 0 
+    for _ in range(5):
+        question, correct_answer = generate_question()
+        user_answer = float(input(f"What is {question}? "))
+        if user_answer == correct_answer:
+            print("Correct!")
+            score += 1
+        else:
+            print(f"Wrong! The correct answer is {correct_answer}.")
+    print(f"Your final score is {score}/5.")
 
 
 
