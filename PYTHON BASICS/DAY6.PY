@@ -50,7 +50,7 @@ def quiz_game():
             print("Correct!")
             score += 1
         else:
-            print(f"Wrong,almost close ! The correct answer is {correct_answer}.")
+            print(f"Wrong,! The correct answer is {correct_answer}.")
     print(f"Your final score is {score}/5.")
 
 
