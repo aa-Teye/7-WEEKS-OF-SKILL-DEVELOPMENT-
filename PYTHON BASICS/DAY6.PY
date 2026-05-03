@@ -10,11 +10,6 @@
 
 
 # print(greet_username())
-
-# FUNCTION WITH PARAMETERS
-# We use paraameters when the function needs to with specific data. Parameters are defined in the function definition and can be used within the function to perform operations.
-# def check_age(age):
-#     if age >= 18:
 #         return "You are eligible to vote."
 #     else:
 #         return "You are not eligible to vote."
@@ -55,7 +50,7 @@ def quiz_game():
             print("Correct!")
             score += 1
         else:
-            print(f"Wrong! The correct answer is {correct_answer}.")
+            print(f"Wrong,almost close ! The correct answer is {correct_answer}.")
     print(f"Your final score is {score}/5.")
 
 
