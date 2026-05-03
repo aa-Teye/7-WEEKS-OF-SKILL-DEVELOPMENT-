@@ -3,19 +3,19 @@
 
 
 
-# def greet_username():
-#     name = input("Enter your name: ")
-#     function_called = f"Hello, {name}! Welcome to Python programming."
-#     return function_called
+def greet_username():
+    name = input("Enter your name: ")
+    function_called = f"Hello, {name}! Welcome to Python programming."
+    return function_called
 
 
-# print(greet_username())
-#         return "You are eligible to vote."
-#     else:
-#         return "You are not eligible to vote."
+print(greet_username())
+        return "You are eligible to vote."
+    else:
+        return "You are not eligible to vote."
     
-# age = int(input("Enter your age: "))
-# print(check_age(age))
+age = int(input("Enter your age: "))
+print(check_age(age))
 
 # For this the function doesn't need any parameters to perform its task, so we can define it without parameters. The function simply displays a welcome message when called.  
 def display_welcome():
